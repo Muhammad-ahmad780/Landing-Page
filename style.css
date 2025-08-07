@@ -1,0 +1,156 @@
+@font-face {
+    /* Give it a name */
+    font-family: 'Kajiro';
+    /* Path to the font file */
+    src: url('images/Kajiro\ Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.heroleft .elem {
+    position: relative;
+    overflow: hidden;
+    height: 9vw;
+    display: flex;
+    flex-direction: column;
+    gap: 236px;
+
+}
+
+.back {
+    height: 100vh;
+}
+
+.back img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.top {
+    pointer-events: none;
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    padding: 0 100px;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+nav a {
+    pointer-events: initial;
+}
+
+nav img {
+    height: 70px;
+    width: 120px;
+}
+
+.navleft,
+.navright {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#hero p {
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+.heroright>div p {
+    margin: 15px 0 40px 0;
+}
+
+.heroright {
+    margin-top: -30px;
+    margin-right: -68px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.heroright img {
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+.heroleft {
+    width: 70%;
+}
+
+.heroright img {
+    width: 240px;
+    height: 170px;
+    background-color: white;
+}
+
+.heroleft .elem h1:nth-child(1) {
+    top: 0;
+}
+
+.heroleft .elem h1 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font-size: 11vw;
+    font-family: 'Kajiro';
+    font-weight: 900;
+    line-height: .9;
+    font-weight: 100;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+
+.heroleft button {
+    padding: 10px 34px;
+    border: none;
+    font-size: 45px;
+    font-family: 'Kajiro';
+    font-weight: 500;
+    cursor: pointer;
+    margin: 20px 0;
+    pointer-events: initial;
+}
+
+.back :nth-child(3) {
+    object-fit: cover;
+    object-position: center;
+}
