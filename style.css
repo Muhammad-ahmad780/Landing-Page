@@ -2,7 +2,7 @@
     /* Give it a name */
     font-family: 'Kajiro';
     /* Path to the font file */
-    src: url('images/Kajiro\ Bold.ttf') format('truetype');
+    src: url('Kajiro\ Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -18,7 +18,6 @@ body,
 html {
     height: 100%;
     width: 100%;
-    /* overflow: hidden; */
 }
 
 .heroleft .elem {
